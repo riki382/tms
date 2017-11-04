@@ -5,7 +5,6 @@ class User {
     private $id;
     private $username;
     private $password;
-    private $active;
     private $details;
     private $created_at;
     private $updated_at;
@@ -16,9 +15,9 @@ class User {
         $this->password = $password;
     }
 
-    public static function newInstance($id, $username, $password, $active, UserDetail $details)
+    public static function newInstance($id, $username, $password, UserDetail $details)
     {
-        $user = new User($username, $password, $active);
+        $user = new User($username, $password);
         $user->setDetails($details);
         $user->setId($id);
         return $user;
@@ -70,22 +69,6 @@ class User {
     public function setPassword($password)
     {
         $this->password = $password;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getActive()
-    {
-        return $this->active;
-    }
-
-    /**
-     * @param mixed $active
-     */
-    public function setActive($active)
-    {
-        $this->active = $active;
     }
 
     /**

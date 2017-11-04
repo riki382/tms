@@ -1,6 +1,10 @@
 <?php
-  require_once __DIR__."/../../../app/app.php";
-  require_once __DIR__."/../../../controller/user/login.php";
+    require_once __DIR__."/../../../app/app.php";
+    require_once __DIR__."/../../../controller/user/login.php";
+    if(isset($_SESSION['userId']))
+    {
+        redirectTo(BASE_URL);
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
