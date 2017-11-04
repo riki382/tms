@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b5070-e074-4e52-b3a6-21e465e33cee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.php" afterPath="$PROJECT_DIR$/app/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/user/login.php" afterPath="$PROJECT_DIR$/controller/user/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/object/User.php" afterPath="$PROJECT_DIR$/model/object/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/object/UserDetail.php" afterPath="$PROJECT_DIR$/model/object/UserDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/table/UserTable.php" afterPath="$PROJECT_DIR$/model/table/UserTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/admin/user/login.php" afterPath="$PROJECT_DIR$/view/admin/user/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/admin/user/register.php" afterPath="$PROJECT_DIR$/view/admin/user/register.php" />
-    </list>
+    <list default="true" id="446b5070-e074-4e52-b3a6-21e465e33cee" name="Default" comment="" />
     <ignored path="tms.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -425,12 +415,12 @@
       <workItem from="1509786147151" duration="545000" />
       <workItem from="1509786976533" duration="1114000" />
       <workItem from="1509789389269" duration="704000" />
-      <workItem from="1509790125080" duration="2560000" />
+      <workItem from="1509790125080" duration="3159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4923000" />
+    <option name="totallyTimeSpent" value="5522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
