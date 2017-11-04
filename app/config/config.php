@@ -22,15 +22,7 @@ if(!defined("BASE_PATH")){
 if(!defined("BASE_URL")){
     define("BASE_URL",$_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/tms/");
 }
-if(!defined("BACKEND_URL")){
-    define("BACKEND_URL",BASE_URL."backend/");
-}
-/**
- * Set the base url for the backend assets
- */
-if(!defined("BACKEND_ASSET")){
-    define("BACKEND_ASSET",BACKEND_URL."assets/");
-}
+
 /**
  * Set the time zone parameter
  */

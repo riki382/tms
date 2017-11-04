@@ -21,20 +21,18 @@ class UserDetail
      * @param $created_at
      * @param $updated_at
      */
-    public function __construct($first_name, $last_name, $email, $role, $user_id, $created_at, $updated_at)
+    public function __construct($first_name, $last_name, $email, $role, $user_id)
     {
         $this->first_name = $first_name;
         $this->last_name = $last_name;
         $this->email = $email;
         $this->role = $role;
         $this->user_id = $user_id;
-        $this->created_at = $created_at;
-        $this->updated_at = $updated_at;
     }
 
-    public static function newInstance($id, $first_name, $last_name, $email, $role, $user_id, $created_at, $updated_at)
+    public static function newInstance($id, $first_name, $last_name, $email, $role, $user_id)
     {
-        $userDetail = new UserDetail($first_name, $last_name, $email, $role, $user_id, $created_at, $updated_at);
+        $userDetail = new UserDetail($first_name, $last_name, $email, $role, $user_id);
         $userDetail->setId($id);
         return $userDetail;
     }

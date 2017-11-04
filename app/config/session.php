@@ -20,7 +20,7 @@ if(isset($_SESSION['userId'])) {
 
     if (!$USER) {
         //the user with that id was not found, redirect to the login page
-        redirectTo(BACKEND_URL . "user");
+        redirectTo(BASE_URL);
     }
 }
 ?>
